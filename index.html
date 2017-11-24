@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>v2fe</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- 开篇 -->
+				<section data-markdown>
+					<textarea data-template>
+						# 前端入门
+						给同学们讲讲前端
+
+						[@zerosrat](https://github.com/zerosrat)
+
+						<time>2017.11.25</time>
+					</textarea>
+				</section>
+
+				<!-- 大纲  -->
+				<section data-markdown>
+					<textarea data-template>
+						- 什么是前端
+						- 前端入门知识
+						- 前端学习路线
+						- 工程师自我修养
+					</textarea>
+				</section>
+
+				<!-- 1.什么是前端 -->
+				<section data-markdown>
+					<textarea data-template>
+						# 一、什么是前端
+					</textarea>
+				</section>
+
+				<!-- 浏览器和服务器的交互 -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							Q: 当我们在浏览器输入网址后发生了什么？
+						</textarea>
+					</section>
+
+					<section>
+						<img width="700" src="assets/bs-flow.png" style="background-color: #fff" />
+					</section>
+				</section>
+
+				<!-- 2.前端入门知识 -->
+				<section data-markdown>
+					<textarea data-template>
+						# 二、前端入门知识
+					</textarea>
+				</section>
+
+				<!-- three basic language  -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## 三剑客
+							- HTML
+							- CSS
+							- JavaScript
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							## 各司其职
+							- HTML -> <span style="color:red">结构</span>
+							- CSS -> <span style="color:red">样式</span>
+							- JavaScript -> <span style="color:red">行为</span>
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							## 举个例子🌰
+						</textarea>
+					</section>
+				</section>
+
+				<!-- 3.前端学习路线  -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							# 三、前端学习路线
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							hint: 不是严格的顺序路线
+						</textarea>
+					</section>
+				</section>
+
+
+				<!-- 学习阶段1  -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## Stage 1 - 前端初探
+							> HTML5, CSS2.1, JavaScript 入门
+
+							- 《Head First HTML and CSS》
+							- 《Head First HTML5 Programming》
+							- 《JavaScript DOM编程艺术》
+							- 《精通CSS》
+
+							or
+
+							- learn online: [w3school](http://www.w3school.com.cn/) & [freeCodeCamp](https://www.freecodecamp.org)
+
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							完成这个阶段，就可以手写一些简单页面了
+							- 自己手写淘宝、知乎练手
+							- 用 Github Pages 搭建自己的静态博客
+						</textarea>
+					</section>
+				</section>
+
+
+				<!-- s2 -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## Stage 2 - 打稳地基
+							> HTML5, CSS2.1/CSS3, ES5/ES2015+ 熟练运用
+
+							书单
+							- 《JavaScript高级程序设计》
+							- 《深入理解ES6》
+							- [《You Don't Know JS》](https://github.com/getify/You-Dont-Know-JS)
+							- 《HTML5高级程序设计》
+							- 《CSS权威指南》
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							参考文档
+							- [MDN web docs](https://developer.mozilla.org/zh-CN/)
+							- [HTML Spec](https://html.spec.whatwg.org/)
+							- [CSS Specs](https://www.w3.org/Style/CSS/specs.en.html)
+							- [ECMAScript Spec](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							这个阶段或许会有些漫长...
+
+							但是完成这个阶段，你能够
+							- 拥有扎实基础的前端工程师
+							- 面对业务需求胸有成竹
+
+							<p style="color:red;" class="fragment" data-fragment-index="2">
+								然而，这样还不够
+							</p>
+						</textarea>
+					</section>
+
+				</section>
+
+				<!-- s3 -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## Stage 3 - 优雅与性能
+							> 优雅使用 JavaScript; 把 CSS 作为艺术
+
+							- 《JavaScript语言精粹》
+							- 《高性能JavaScript》
+							- 《CSS揭秘》
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							这个阶段是上个阶段的延续
+
+							进行这个阶段的同时，可以进入下一个阶段
+						</textarea>
+					</section>
+
+				</section>
+
+				<!-- s4  -->
+				<section data-markdown>
+					<textarea data-template>
+						## Stage 4 - 框架使用、面向未来
+						``` js
+						for(;;) {
+							// 学习现代前端框架，理解其技术背景
+						}
+						```
+
+						- React.js
+						- Vue.js
+						- Angular(JS)
+						- ...
+					</textarea>
+				</section>
+
+				<!-- in 2017  -->
+				<section data-markdown>
+					<textarea data-template>
+						## 2017 前端技术栈
+						<!-- - UI Libraries/Frameworks: React.js, Vue.js, Angular
+						- Components Libraries: Ant Design, Element
+						- CSS Preprocessor: SCSS, Less, Stylus
+						- CSS Frameworks: BootStrap, Bluma
+						- Build Tool:  Webpack
+						- Package Manager: Yarn, npm -->
+						<img src="assets/fe-2017.png" style="background-color: #fff" />
+					</textarea>
+				</section>
+
+				<!-- 工程师自我修养  -->
+				<section data-markdown>
+					<textarea data-template>
+						# 四、工程师自我修养
+					</textarea>
+				</section>
+
+				<!--  -->
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## 先是软件工程师，才是前端工程师
+							> 计算机基础
+
+							- 数据结构与算法
+							- 操作系统
+							- 计算机网络
+							- ...
+						</textarea>
+					</section>
+
+					<section data-markdown>
+						<textarea data-template>
+							会影响
+							- 思考问题的方式
+							- 解决问题的能力
+							- 跨界的成本
+						</textarea>
+					</section>
+				</section>
+
+
+				<!--  -->
+				<section data-markdown>
+					<textarea data-template>
+						# Q & A
+					</textarea>
+				</section>
+
+				<!--  -->
+				<section data-markdown>
+					<textarea data-template>
+						# Thanks
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
